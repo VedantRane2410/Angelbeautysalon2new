@@ -1,0 +1,2177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== SEO META TAGS ===== -->
+    <title>Angel Beauty Salon | Premium Beauty & Wellness in Kalyan</title>
+    <meta name="description" content="Angel Beauty Salon - Premium beauty parlour in Kalyan with two locations. Expert hair styling, bridal makeup, facials, and beauty treatments. Ladies & Unisex salons.">
+    <meta name="keywords" content="beauty salon Kalyan, ladies salon Kalyan, unisex salon Kalyan, bridal makeup Kalyan, hair styling, facial treatment, Angel Beauty, VS Salon">
+    <meta name="author" content="Angel Beauty Salon">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Angel Beauty Salon | Premium Beauty & Wellness">
+    <meta property="og:description" content="Expert beauty treatments in Kalyan. Ladies & Unisex salons. Book your appointment today!">
+    <meta property="og:image" content="./2211.jpg">
+    <meta property="og:url" content="https://angelbeautysalon.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Angel Beauty Salon">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Angel Beauty Salon | Premium Beauty & Wellness">
+    <meta name="twitter:description" content="Expert beauty treatments in Kalyan. Ladies & Unisex salons.">
+    <meta name="twitter:image" content="./2211.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://angelbeautysalon.com">
+    
+    <!-- JSON-LD Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "Angel Beauty Salon",
+        "image": "./2211.jpg",
+        "url": "https://angelbeautysalon.com",
+        "telephone": "+919876543210",
+        "priceRange": "₹500 - ₹50000",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Shop no 4, MANGESHI SRUSHTI, Vasant Valley Rd",
+            "addressLocality": "Kalyan",
+            "addressRegion": "Maharashtra",
+            "postalCode": "421301",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 19.2608441,
+            "longitude": 73.1359206
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "10:00",
+                "closes": "21:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.instagram.com/angelbeautysalon__",
+            "https://www.instagram.com/vs_family_salon_2025"
+        ]
+    }
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Flatpickr for date/time picker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'angel-pink': '#E8B4B8',
+                        'angel-pink-light': '#F5E6E8',
+                        'angel-pink-dark': '#D4949A',
+                        'angel-gold': '#C9A962',
+                        'angel-gold-light': '#E8D9B5',
+                        'angel-dark': '#2D2D2D',
+                        'angel-gray': '#6B6B6B',
+                    },
+                    fontFamily: {
+                        'playfair': ['Playfair Display', 'serif'],
+                        'poppins': ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior:smooth; overflow-x:hidden; }
+        body { font-family:'Poppins',sans-serif; overflow-x:hidden; max-width:100vw; }
+        .font-playfair { font-family:'Playfair Display',serif; }
+        
+        ::-webkit-scrollbar { width:8px; }
+        ::-webkit-scrollbar-track { background:#F5E6E8; }
+        ::-webkit-scrollbar-thumb { background:#E8B4B8; border-radius:4px; }
+        ::-webkit-scrollbar-thumb:hover { background:#D4949A; }
+        
+        .text-gradient { background:linear-gradient(135deg,#E8B4B8 0%,#C9A962 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+        .gold-gradient { background:linear-gradient(135deg,#C9A962 0%,#E8D9B5 50%,#C9A962 100%); }
+        .pink-gradient { background:linear-gradient(135deg,#E8B4B8 0%,#F5E6E8 100%); }
+        
+        .btn-primary {
+            background:linear-gradient(135deg,#E8B4B8 0%,#D4949A 100%);
+            color:white; padding:12px 32px; border-radius:50px; font-weight:500;
+            transition:all 0.3s ease; box-shadow:0 4px 15px rgba(232,180,184,0.4);
+        }
+        .btn-primary:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(232,180,184,0.6); }
+        
+        .btn-outline {
+            border:2px solid #C9A962; color:#C9A962; padding:12px 32px; border-radius:50px;
+            font-weight:500; transition:all 0.3s ease;
+        }
+        .btn-outline:hover { background:#C9A962; color:white; }
+        
+        @keyframes float { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-10px);} }
+        .float-animation { animation:float 3s ease-in-out infinite; }
+        
+        .section-padding { padding:80px 0; }
+        @media (max-width:768px) { .section-padding { padding:60px 0; } }
+        
+        .card-hover { transition:all 0.3s ease; }
+        .card-hover:hover { transform:translateY(-5px) scale(1.02); box-shadow:0 20px 40px rgba(0,0,0,0.1); }
+        
+        .nav-link { position:relative; }
+        .nav-link::after {
+            content:''; position:absolute; bottom:-4px; left:0; width:0; height:2px;
+            background:#C9A962; transition:width 0.3s ease;
+        }
+        .nav-link:hover::after, .nav-link.active::after { width:100%; }
+        
+        .mobile-menu { transform:translateX(100%); transition:transform 0.3s ease; }
+        .mobile-menu.active { transform:translateX(0); }
+        
+        .service-card { position:relative; overflow:hidden; }
+        .service-card::before {
+            content:''; position:absolute; top:0; left:-100%; width:100%; height:100%;
+            background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent);
+            transition:left 0.5s ease;
+        }
+        .service-card:hover::before { left:100%; }
+        
+        .gallery-item { overflow:hidden; position:relative; border-radius:0.75rem; }
+        .gallery-item img { transition:transform 0.5s ease; width:100%; height:100%; object-fit:cover; }
+        .gallery-item:hover img { transform:scale(1.1); }
+        
+        .testimonial-card { background:linear-gradient(145deg,#fff 0%,#F5E6E8 100%); transition:transform 0.3s ease; }
+        .testimonial-card:hover { transform:translateY(-5px); box-shadow:0 10px 30px rgba(0,0,0,0.08); }
+        
+        .step-indicator { position:relative; }
+        .step-indicator::before {
+            content:''; position:absolute; top:20px; left:0; right:0; height:2px;
+            background:#E8B4B8; z-index:0;
+        }
+        .step-dot {
+            width:40px; height:40px; border-radius:50%; background:#F5E6E8;
+            display:flex; align-items:center; justify-content:center; font-weight:600;
+            color:#6B6B6B; position:relative; z-index:1; transition:all 0.3s ease;
+        }
+        .step-dot.active { background:linear-gradient(135deg,#E8B4B8 0%,#D4949A 100%); color:white; }
+        .step-dot.completed { background:#C9A962; color:white; }
+        
+        .whatsapp-float {
+            position:fixed; bottom:30px; right:30px; width:60px; height:60px; background:#25D366;
+            border-radius:50%; display:flex; align-items:center; justify-content:center;
+            color:white; font-size:30px; box-shadow:0 4px 15px rgba(37,211,102,0.4);
+            z-index:1000; transition:all 0.3s ease; text-decoration:none;
+        }
+        .whatsapp-float:hover { transform:scale(1.1); box-shadow:0 6px 20px rgba(37,211,102,0.6); }
+        
+        .scroll-top {
+            position:fixed; bottom:100px; right:30px; width:45px; height:45px; background:#C9A962;
+            border-radius:50%; display:flex; align-items:center; justify-content:center;
+            color:white; cursor:pointer; opacity:0; visibility:hidden; transition:all 0.3s ease;
+            z-index:999;
+        }
+        .scroll-top.visible { opacity:1; visibility:visible; }
+        
+        .time-slot {
+            padding:10px 15px; border:1px solid #E8B4B8; border-radius:8px; cursor:pointer;
+            transition:all 0.3s ease; text-align:center;
+        }
+        .time-slot:hover { background:#F5E6E8; transform:scale(1.02); }
+        .time-slot.selected { background:linear-gradient(135deg,#E8B4B8 0%,#D4949A 100%); color:white; border-color:transparent; }
+        .time-slot.unavailable { background:#f0f0f0; color:#999; cursor:not-allowed; pointer-events:none; }
+        
+        .location-card { transition:all 0.3s ease; }
+        .location-card:hover { transform:translateY(-5px); box-shadow:0 15px 30px rgba(0,0,0,0.1); }
+        
+        .modal-overlay {
+            position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);
+            display:flex; align-items:center; justify-content:center; z-index:9999;
+            opacity:0; visibility:hidden; transition:all 0.3s ease;
+        }
+        .modal-overlay.active { opacity:1; visibility:visible; }
+        .modal-content {
+            background:white; border-radius:20px; max-width:800px; width:90%; max-height:90vh;
+            overflow-y:auto; transform:scale(0.9); transition:transform 0.3s ease; padding:20px;
+        }
+        .modal-overlay.active .modal-content { transform:scale(1); }
+        .modal-header {
+            display:flex; justify-content:space-between; align-items:center;
+            border-bottom:1px solid #F5E6E8; padding-bottom:15px; margin-bottom:20px;
+        }
+        .modal-header h3 { font-family:'Playfair Display',serif; font-size:1.5rem; color:#2D2D2D; }
+        .modal-header button { color:#6B6B6B; font-size:1.5rem; transition:color 0.3s; }
+        .modal-header button:hover { color:#D4949A; }
+        
+        .service-item {
+            display:flex; justify-content:space-between; align-items:center;
+            padding:12px; border-bottom:1px solid #F5E6E8;
+            transition:background-color 0.2s;
+        }
+        .service-item:hover { background-color:#F5E6E8; }
+        .service-item:last-child { border-bottom:none; }
+        .service-book-btn {
+            background:linear-gradient(135deg,#E8B4B8 0%,#D4949A 100%);
+            color:white; border:none; padding:5px 15px; border-radius:30px;
+            font-size:12px; font-weight:500; cursor:pointer; transition:0.2s;
+        }
+        .service-book-btn:hover { opacity:0.9; transform:scale(1.05); }
+        
+        .gallery-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; margin-top:15px; }
+        .gallery-grid img { border-radius:10px; width:100%; height:120px; object-fit:cover; transition:transform 0.3s; }
+        .gallery-grid img:hover { transform:scale(1.05); }
+        
+        /* Carousel styles */
+        .carousel-slide {
+            display: none;
+        }
+        .carousel-slide:first-child {
+            display: flex;
+        }
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            background: #ccc;
+            border-radius: 50%;
+            margin: 0 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .carousel-dot.active {
+            background: #C9A962;
+            width: 16px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    
+    <nav class="fixed w-full bg-white/95 backdrop-blur-md shadow-sm z-50 transition-all duration-300 border-b border-angel-pink-light" id="navbar">
+        <div class="container mx-auto px-4 py-4 max-w-[100vw]">
+            <div class="flex items-center justify-between">
+                <a href="#home" class="flex items-center gap-2" aria-label="Go to Home">
+                    <div class="w-10 h-10 rounded-full gold-gradient flex items-center justify-center">
+                        <span class="text-white font-playfair text-xl font-bold">A</span>
+                    </div>
+                    <div>
+                        <h1 class="font-playfair text-xl font-semibold text-angel-dark">Angel Beauty</h1>
+                        <p class="text-xs text-angel-gray">Premium Salon</p>
+                    </div>
+                </a>
+                
+                <div class="hidden md:flex items-center gap-6 lg:gap-8">
+                    <a href="#home" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Home</a>
+                    <a href="#about" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">About</a>
+                    <a href="#services" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Services</a>
+                    <a href="#gallery" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Gallery</a>
+                    <a href="#testimonials" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Reviews</a>
+                    <a href="#locations" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Locations</a>
+                    <a href="#contact" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Contact</a>
+                    <div id="desktopAuthButtons" class="flex items-center gap-4">
+                        <button onclick="openLoginModal()" class="text-angel-dark hover:text-angel-pink-dark transition-colors">Login</button>
+                        <button onclick="openSignupModal()" class="text-angel-dark hover:text-angel-pink-dark transition-colors">Sign Up</button>
+                    </div>
+                    <div id="desktopUserMenu" class="hidden items-center gap-4">
+                        <a href="#dashboard" class="nav-link text-angel-dark hover:text-angel-pink-dark transition-colors">Dashboard</a>
+                        <button onclick="logout()" class="text-angel-dark hover:text-angel-pink-dark transition-colors">Logout</button>
+                    </div>
+                    <button onclick="openBookingModal()" class="btn-primary">
+                        Book Now
+                    </button>
+                </div>
+                
+                <button class="md:hidden text-angel-dark" onclick="toggleMobileMenu()" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="mobile-menu fixed top-0 right-0 w-80 h-full bg-white shadow-2xl md:hidden z-50" id="mobileMenu">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-8">
+                    <h2 class="font-playfair text-xl font-semibold">Menu</h2>
+                    <button onclick="toggleMobileMenu()" class="text-angel-gray hover:text-angel-dark" aria-label="Close Menu">
+                        <i class="fas fa-times text-2xl"></i>
+                    </button>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <a href="#home" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Home</a>
+                    <a href="#about" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">About</a>
+                    <a href="#services" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Services</a>
+                    <a href="#gallery" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Gallery</a>
+                    <a href="#testimonials" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Reviews</a>
+                    <a href="#locations" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Locations</a>
+                    <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Contact</a>
+                    <div id="mobileAuthButtons" class="flex flex-col gap-2">
+                        <button onclick="openLoginModal(); toggleMobileMenu();" class="block py-2 text-angel-dark hover:text-angel-pink-dark text-left">Login</button>
+                        <button onclick="openSignupModal(); toggleMobileMenu();" class="block py-2 text-angel-dark hover:text-angel-pink-dark text-left">Sign Up</button>
+                    </div>
+                    <div id="mobileUserMenu" class="hidden flex-col gap-2">
+                        <a href="#dashboard" onclick="toggleMobileMenu()" class="block py-2 text-angel-dark hover:text-angel-pink-dark">Dashboard</a>
+                        <button onclick="logout(); toggleMobileMenu();" class="block py-2 text-angel-dark hover:text-angel-pink-dark text-left">Logout</button>
+                    </div>
+                    <button onclick="openBookingModal(); toggleMobileMenu();" class="btn-primary w-full mt-4">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-angel-pink-light via-white to-angel-gold-light opacity-50"></div>
+        <div class="absolute top-20 right-0 w-96 h-96 bg-angel-pink opacity-20 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-20 left-0 w-80 h-80 bg-angel-gold opacity-20 rounded-full blur-3xl"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            
+            <!-- ===== OFFER CAROUSEL (FIXED) ===== -->
+            <div class="relative mb-10" data-aos="fade-down" data-aos-duration="800">
+                <!-- Carousel wrapper -->
+                <div class="relative overflow-hidden rounded-2xl">
+                    <!-- Slides container -->
+                    <div id="carouselSlides" class="relative">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide bg-gradient-to-r from-angel-pink-light to-angel-gold-light p-4 shadow-sm border border-white/60 flex flex-wrap items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center animate-pulse">
+                                    <i class="fas fa-gift text-angel-pink-dark text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-playfair font-bold text-angel-dark text-lg md:text-xl">Limited 30% OFF!</h3>
+                                    <p class="text-sm text-angel-gray">First 10 customers only. Ends in:</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 md:gap-4 text-center">
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="days font-bold text-angel-dark text-lg">09</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Days</div>
+                                </div>
+                                <span class="font-bold text-angel-dark">:</span>
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="hours font-bold text-angel-dark text-lg">23</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Hours</div>
+                                </div>
+                                <span class="font-bold text-angel-dark">:</span>
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="minutes font-bold text-angel-dark text-lg">59</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Mins</div>
+                                </div>
+                            </div>
+                            <button onclick="openBookingModal()" class="bg-angel-dark text-white text-sm px-6 py-2 rounded-full hover:bg-black transition-colors shadow-md whitespace-nowrap">
+                                Claim Now
+                            </button>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide bg-gradient-to-r from-angel-pink-light to-angel-gold-light p-4 shadow-sm border border-white/60 flex flex-wrap items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center animate-pulse">
+                                    <i class="fas fa-gift text-angel-pink-dark text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-playfair font-bold text-angel-dark text-lg md:text-xl">Bridal Special 25% OFF</h3>
+                                    <p class="text-sm text-angel-gray">Book your bridal package today. Ends in:</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 md:gap-4 text-center">
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="days font-bold text-angel-dark text-lg">04</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Days</div>
+                                </div>
+                                <span class="font-bold text-angel-dark">:</span>
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="hours font-bold text-angel-dark text-lg">12</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Hours</div>
+                                </div>
+                                <span class="font-bold text-angel-dark">:</span>
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="minutes font-bold text-angel-dark text-lg">30</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Mins</div>
+                                </div>
+                            </div>
+                            <button onclick="openBookingModal()" class="bg-angel-dark text-white text-sm px-6 py-2 rounded-full hover:bg-black transition-colors shadow-md whitespace-nowrap">
+                                Claim Now
+                            </button>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide bg-gradient-to-r from-angel-pink-light to-angel-gold-light p-4 shadow-sm border border-white/60 flex flex-wrap items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center animate-pulse">
+                                    <i class="fas fa-gift text-angel-pink-dark text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-playfair font-bold text-angel-dark text-lg md:text-xl">Free Consultation</h3>
+                                    <p class="text-sm text-angel-gray">On your first visit. Ends in:</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 md:gap-4 text-center">
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="days font-bold text-angel-dark text-lg">02</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Days</div>
+                                </div>
+                                <span class="font-bold text-angel-dark">:</span>
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="hours font-bold text-angel-dark text-lg">08</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Hours</div>
+                                </div>
+                                <span class="font-bold text-angel-dark">:</span>
+                                <div class="bg-white rounded-lg px-2 md:px-3 py-1 shadow-sm">
+                                    <span class="minutes font-bold text-angel-dark text-lg">15</span>
+                                    <div class="text-[10px] text-angel-gray uppercase">Mins</div>
+                                </div>
+                            </div>
+                            <button onclick="openBookingModal()" class="bg-angel-dark text-white text-sm px-6 py-2 rounded-full hover:bg-black transition-colors shadow-md whitespace-nowrap">
+                                Claim Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Arrows -->
+                    <button id="prevOffer" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-10">
+                        <i class="fas fa-chevron-left text-angel-dark"></i>
+                    </button>
+                    <button id="nextOffer" class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 shadow-md z-10">
+                        <i class="fas fa-chevron-right text-angel-dark"></i>
+                    </button>
+                    
+                    <!-- Dots container (will be populated by JS) -->
+                    <div id="carouselDots" class="flex justify-center gap-2 mt-3"></div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <div class="inline-block bg-angel-pink-light px-4 py-2 rounded-full mb-4">
+                        <span class="text-angel-pink-dark text-sm font-medium">
+                            <i class="fas fa-star text-angel-gold mr-2"></i>Premium Beauty Experience
+                        </span>
+                    </div>
+                    <h1 class="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-angel-dark leading-tight mb-6">
+                        Reveal Your <span class="text-gradient">Natural Beauty</span> With Us
+                    </h1>
+                    <p class="text-angel-gray text-lg mb-8 max-w-lg">
+                        Experience world-class beauty treatments at Angel Beauty Salon. Our expert stylists and premium products ensure you leave feeling confident and beautiful.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button onclick="openBookingModal()" class="btn-primary">
+                            <i class="fas fa-calendar-alt mr-2"></i>Book Appointment
+                        </button>
+                        <a href="#gallery" class="btn-outline">
+                            <i class="fas fa-images mr-2"></i>View Gallery
+                        </a>
+                    </div>
+                    
+                    <div class="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-angel-pink-light">
+                        <div>
+                            <h3 class="font-playfair text-3xl font-bold text-angel-dark">15+</h3>
+                            <p class="text-angel-gray text-sm">Years Experience</p>
+                        </div>
+                        <div>
+                            <h3 class="font-playfair text-3xl font-bold text-angel-dark">50K+</h3>
+                            <p class="text-angel-gray text-sm">Happy Clients</p>
+                        </div>
+                        <div>
+                            <h3 class="font-playfair text-3xl font-bold text-angel-dark">4.9</h3>
+                            <p class="text-angel-gray text-sm">Rating</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="relative float-animation">
+                        <img src="./2211.jpg" 
+                             alt="Angel Beauty Salon Bridal Makeup" 
+                             class="rounded-3xl shadow-2xl w-full max-w-lg mx-auto object-cover h-[500px]">
+                        
+                        <div class="absolute -left-8 top-1/4 bg-white p-4 rounded-2xl shadow-lg float-animation hidden md:block" style="animation-delay: 0.5s;">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center">
+                                    <i class="fas fa-spa text-white text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-angel-dark">Premium Spa</p>
+                                    <p class="text-xs text-angel-gray">Relax & Rejuvenate</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="absolute -right-4 bottom-1/4 bg-white p-4 rounded-2xl shadow-lg float-animation hidden md:block" style="animation-delay: 1s;">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-full pink-gradient flex items-center justify-center">
+                                    <i class="fas fa-cut text-white text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-angel-dark">Expert Stylists</p>
+                                    <p class="text-xs text-angel-gray">15+ Years Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 pt-8 border-t border-angel-pink-light w-full text-center" data-aos="fade-up">
+                <p class="text-sm text-angel-gray font-medium uppercase tracking-widest mb-6">Premium Brands We Trust</p>
+                <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60">
+                    <span class="font-playfair text-2xl font-bold tracking-wider">L'ORÉAL</span>
+                    <span class="font-playfair text-2xl font-bold tracking-wider">MAC</span>
+                    <span class="font-playfair text-2xl font-bold tracking-wider">MATRIX</span>
+                    <span class="font-playfair text-2xl font-bold tracking-wider">KRYOLAN</span>
+                    <span class="font-playfair text-2xl font-bold tracking-wider">O3+</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="w-full">
+                <path fill="#fff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="bg-angel-pink-light py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="flex items-center gap-4 card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm">
+                        <i class="fas fa-calendar-check text-angel-pink-dark text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-angel-dark text-sm">Easy Online Booking</h4>
+                        <p class="text-xs text-angel-gray">Book 24/7 from anywhere</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm">
+                        <i class="fas fa-map-marker-alt text-angel-pink-dark text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-angel-dark text-sm">Multiple Locations</h4>
+                        <p class="text-xs text-angel-gray">Convenient for you</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm">
+                        <i class="fas fa-user-tie text-angel-pink-dark text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-angel-dark text-sm">Expert Staff</h4>
+                        <p class="text-xs text-angel-gray">Certified professionals</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 card-hover" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-sm">
+                        <i class="fas fa-award text-angel-pink-dark text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-angel-dark text-sm">Premium Quality</h4>
+                        <p class="text-xs text-angel-gray">Top brands & products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="relative" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="About Angel Beauty Salon" 
+                         class="rounded-3xl shadow-2xl w-full">
+                    <div class="absolute -bottom-6 -right-6 bg-angel-gold text-white p-6 rounded-2xl shadow-lg">
+                        <p class="font-playfair text-4xl font-bold">15+</p>
+                        <p class="text-sm">Years of Excellence</p>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <span class="text-angel-pink-dark font-medium">About Us</span>
+                    <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2 mb-6">
+                        Elevating Beauty Standards Since 2008
+                    </h2>
+                    <p class="text-angel-gray mb-6 leading-relaxed">
+                        Angel Beauty Salon has grown from a single boutique to a premium chain of salons. Our mission is to provide exceptional beauty services using high-quality products in a relaxing environment.
+                    </p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-angel-pink-light flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-heart text-angel-pink-dark"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark">Client-First Approach</h4>
+                                <p class="text-sm text-angel-gray">Your satisfaction is our priority</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-angel-gold-light flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-gem text-angel-gold"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark">Premium Quality</h4>
+                                <p class="text-sm text-angel-gray">Only top-tier products</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-angel-pink-light flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-lightbulb text-angel-pink-dark"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark">Innovation</h4>
+                                <p class="text-sm text-angel-gray">Latest techniques & trends</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-10 h-10 rounded-full bg-angel-gold-light flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-shield-alt text-angel-gold"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark">Trust & Safety</h4>
+                                <p class="text-sm text-angel-gray">Hygienic & secure environment</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn-outline inline-block">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding bg-gradient-to-b from-white to-angel-pink-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <span class="text-angel-pink-dark font-medium">Our Services</span>
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2">
+                    Premium Beauty Treatments
+                </h2>
+                <p class="text-angel-gray mt-4 max-w-2xl mx-auto">
+                    From hair styling to bridal makeup, we offer a comprehensive range of beauty services tailored to your needs.
+                </p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-4 mb-10" data-aos="fade-up">
+                <button onclick="filterServices('all')" class="service-filter active px-6 py-2 rounded-full bg-angel-dark text-white transition-all">
+                    All Services
+                </button>
+                <button onclick="filterServices('hair')" class="service-filter px-6 py-2 rounded-full bg-white text-angel-gray hover:bg-angel-pink-light transition-all">
+                    Hair
+                </button>
+                <button onclick="filterServices('makeup')" class="service-filter px-6 py-2 rounded-full bg-white text-angel-gray hover:bg-angel-pink-light transition-all">
+                    Makeup
+                </button>
+                <button onclick="filterServices('skin')" class="service-filter px-6 py-2 rounded-full bg-white text-angel-gray hover:bg-angel-pink-light transition-all">
+                    Skin Care
+                </button>
+                <button onclick="filterServices('bridal')" class="service-filter px-6 py-2 rounded-full bg-white text-angel-gray hover:bg-angel-pink-light transition-all">
+                    Bridal
+                </button>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="services-grid"></div>
+            
+            <div class="text-center mt-12" data-aos="fade-up">
+                <button onclick="openServicesModal()" class="btn-outline">
+                    View All Services <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <span class="text-angel-pink-dark font-medium">Our Gallery</span>
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2">
+                    Beautiful Transformations
+                </h2>
+                <p class="text-angel-gray mt-4 max-w-2xl mx-auto">
+                    Real results from our happy clients.
+                </p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-4 mb-8" data-aos="fade-up">
+                <button onclick="filterGallery('all')" class="gallery-filter active px-5 py-2 rounded-full bg-angel-dark text-white transition-all text-sm">
+                    All
+                </button>
+                <button onclick="filterGallery('bridal')" class="gallery-filter px-5 py-2 rounded-full bg-angel-pink-light text-angel-gray hover:bg-angel-pink-dark hover:text-white transition-all text-sm">
+                    Bridal
+                </button>
+                <button onclick="filterGallery('hair')" class="gallery-filter px-5 py-2 rounded-full bg-angel-pink-light text-angel-gray hover:bg-angel-pink-dark hover:text-white transition-all text-sm">
+                    Hair
+                </button>
+                <button onclick="filterGallery('makeup')" class="gallery-filter px-5 py-2 rounded-full bg-angel-pink-light text-angel-gray hover:bg-angel-pink-dark hover:text-white transition-all text-sm">
+                    Makeup
+                </button>
+                <button onclick="filterGallery('salon')" class="gallery-filter px-5 py-2 rounded-full bg-angel-pink-light text-angel-gray hover:bg-angel-pink-dark hover:text-white transition-all text-sm">
+                    Salon
+                </button>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="gallery-grid"></div>
+            
+            <div class="text-center mt-10" data-aos="fade-up">
+                <button onclick="openGalleryModal()" class="btn-primary">
+                    View Full Gallery <i class="fas fa-images ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding bg-gradient-to-b from-angel-pink-light to-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-8" data-aos="fade-up">
+                <span class="text-angel-pink-dark font-medium">Testimonials</span>
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2">
+                    What Our Clients Say
+                </h2>
+                <div class="flex justify-center items-center gap-2 mt-4">
+                    <span class="text-4xl font-bold text-angel-dark">4.9</span>
+                    <div class="flex text-angel-gold text-2xl">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-angel-gray mt-2">Based on hundreds of reviews from our satisfied customers.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="testimonials-grid"></div>
+            
+            <div class="text-center mt-12" data-aos="fade-up">
+                <button onclick="openReviewsModal()" class="btn-outline">
+                    Read All Reviews <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations" class="section-padding bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <span class="text-angel-pink-dark font-medium">Our Locations</span>
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2">
+                    Visit Us Near You
+                </h2>
+                <p class="text-angel-gray mt-4 max-w-2xl mx-auto">
+                    Click on a location to book or get directions. VS Salon has its own service and gallery.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Angelbeautysalon-Kalyan -->
+                <div class="location-card bg-white rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-48 bg-gray-200 relative">
+                        <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                             alt="Kalyan Location" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-2 flex flex-wrap items-center gap-2">
+                            Angelbeautysalon-Kalyan
+                            <span class="bg-angel-pink-light text-angel-pink-dark text-xs font-sans px-2 py-1 rounded-full font-medium">Only Ladies</span>
+                        </h3>
+                        <p class="text-angel-gray text-sm mb-4">
+                            <i class="fas fa-map-marker-alt mr-2 text-angel-pink-dark"></i>
+                            Shop no 4, MANGESHI SRUSHTI, Vasant Valley Rd, near kangaroo kids preschool, phase 2, Khadakpada, Kalyan, Maharashtra 421301
+                        </p>
+                        <div class="flex items-center gap-4 mb-4 text-sm text-angel-gray">
+                            <span><i class="fas fa-clock mr-2 text-angel-pink-dark"></i>11 AM - 9 PM</span>
+                            <span><i class="fas fa-phone mr-2 text-angel-pink-dark"></i>[Phone Number]</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openBookingForLocation('Angelbeautysalon-Kalyan')" class="flex-1 btn-primary text-sm py-2">
+                                Book Here
+                            </button>
+                            <a href="https://maps.app.goo.gl/XtoHbmyRNuFAttdB9" aria-label="Open in Google Maps" target="_blank" class="px-4 py-2 border border-angel-pink-dark text-angel-pink-dark rounded-full hover:bg-angel-pink-dark hover:text-white transition-all">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- VS Salon-kalyan -->
+                <div class="location-card bg-white rounded-2xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-48 bg-gray-200 relative">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                             alt="VS Family Salon" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-2 flex flex-wrap items-center gap-2">
+                            VS Salon-kalyan
+                            <span class="bg-gray-100 text-angel-dark text-xs font-sans px-2 py-1 rounded-full font-medium">Unisex</span>
+                        </h3>
+                        <p class="text-angel-gray text-sm mb-4">
+                            <i class="fas fa-map-marker-alt mr-2 text-angel-pink-dark"></i>
+                            RAUNAK CITY, D7, Sapad Gaon, Khadakpada, Kalyan, Maharashtra 421301
+                        </p>
+                        <div class="flex items-center gap-4 mb-4 text-sm text-angel-gray">
+                            <span><i class="fas fa-clock mr-2 text-angel-pink-dark"></i>10 AM - 9 PM</span>
+                            <span><i class="fas fa-phone mr-2 text-angel-pink-dark"></i>[Phone Number]</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openLocationModal('vs')" class="flex-1 btn-primary text-sm py-2">
+                                View Details
+                            </button>
+                            <a href="https://maps.app.goo.gl/MUcLPigNE3vRRLcR9" aria-label="Open in Google Maps" target="_blank" class="px-4 py-2 border border-angel-pink-dark text-angel-pink-dark rounded-full hover:bg-angel-pink-dark hover:text-white transition-all">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-gradient-to-r from-angel-pink-light to-angel-gold-light rounded-2xl p-8 text-center" data-aos="fade-up">
+                <i class="fas fa-map-marked-alt text-4xl text-angel-dark mb-4"></i>
+                <h3 class="font-playfair text-2xl font-semibold text-angel-dark mb-2">Coming Soon</h3>
+                <p class="text-angel-gray mb-4">We're expanding to more locations near you!</p>
+                <div class="flex justify-center gap-4">
+                    <span class="bg-white px-4 py-2 rounded-full text-sm text-angel-dark">Bandra</span>
+                    <span class="bg-white px-4 py-2 rounded-full text-sm text-angel-dark">Juhu</span>
+                    <span class="bg-white px-4 py-2 rounded-full text-sm text-angel-dark">Marine Drive</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-gradient-to-r from-angel-pink-dark to-angel-pink-dark text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-80 h-80 bg-white rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">
+                    Ready to Look Stunning?
+                </h2>
+                <p class="text-white/80 mb-8 text-lg" data-aos="fade-up" data-aos-delay="100">
+                    Book your appointment today and experience the angel difference. Limited slots available for this week!
+                </p>
+                <div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                    <button onclick="openBookingModal()" class="bg-white text-angel-pink-dark px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all">
+                        <i class="fas fa-calendar-plus mr-2"></i>Book Appointment
+                    </button>
+                    <a href="tel:[Phone Number]" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-angel-pink-dark transition-all">
+                        <i class="fas fa-phone mr-2"></i>Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <span class="text-angel-pink-dark font-medium">Contact Us</span>
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2">
+                    Get In Touch
+                </h2>
+                <p class="text-angel-gray mt-4 max-w-2xl mx-auto">
+                    Have questions? We'd love to hear from you. Reach out to us through any of these channels.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div data-aos="fade-right">
+                    <form class="bg-angel-pink-light rounded-2xl p-8" onsubmit="handleContactSubmit(event)">
+                        <h3 class="font-playfair text-2xl font-semibold text-angel-dark mb-6">Send us a Message</h3>
+                        
+                        <div class="grid sm:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-medium text-angel-dark mb-2">Name</label>
+                                <input type="text" id="contactName" required 
+                                       class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none transition-all"
+                                       placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-angel-dark mb-2">Phone</label>
+                                <input type="tel" id="contactPhone" required 
+                                       class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none transition-all"
+                                       placeholder="Your Phone">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="block text-sm font-medium text-angel-dark mb-2">Email</label>
+                            <input type="email" id="contactEmail" required 
+                                   class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none transition-all"
+                                   placeholder="your@email.com">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="block text-sm font-medium text-angel-dark mb-2">Service Interested In</label>
+                            <select id="contactService" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none transition-all">
+                                <option>Select a service</option>
+                                <option>Hair Styling</option>
+                                <option>Hair Coloring</option>
+                                <option>Bridal Makeup</option>
+                                <option>Party Makeup</option>
+                                <option>Facial Treatment</option>
+                                <option>Full Bridal Package</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-angel-dark mb-2">Message</label>
+                            <textarea id="contactMessage" rows="4" required
+                                      class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none transition-all"
+                                      placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-full">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="space-y-6">
+                        <div class="bg-white rounded-2xl p-6 shadow-lg flex items-start gap-4">
+                            <div class="w-14 h-14 rounded-full bg-angel-pink-light flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-phone text-angel-pink-dark text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark mb-1">Phone</h4>
+                                <p class="text-angel-gray text-sm mb-2">Call us for any inquiries</p>
+                                <a href="tel:[Phone Number]" class="text-angel-pink-dark font-medium hover:underline">[Phone Number]</a>
+                                <p class="text-angel-gray text-sm mt-1">Mon - Sat: 10 AM - 8 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-2xl p-6 shadow-lg flex items-start gap-4">
+                            <div class="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                                <i class="fab fa-whatsapp text-green-500 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark mb-1">WhatsApp</h4>
+                                <p class="text-angel-gray text-sm mb-2">Quick chat on WhatsApp</p>
+                                <a href="https://wa.me/[PhoneNumber]" target="_blank" class="text-green-500 font-medium hover:underline">[Phone Number]</a>
+                                <p class="text-angel-gray text-sm mt-1">Available 24/7</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-2xl p-6 shadow-lg flex items-start gap-4">
+                            <div class="w-14 h-14 rounded-full bg-angel-gold-light flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-envelope text-angel-gold text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-angel-dark mb-1">Email</h4>
+                                <p class="text-angel-gray text-sm mb-2">Send us an email</p>
+                                <a href="mailto:info@angelbeautysalon.com" class="text-angel-pink-dark font-medium hover:underline">info@angelbeautysalon.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-semibold text-angel-dark mb-4">Follow Us</h4>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://www.instagram.com/angelbeautysalon__?igsh=dW9rcHloYjNvaDh4" target="_blank" aria-label="Instagram Kalyan Branch" class="px-4 py-2 h-12 rounded-full bg-angel-pink-light flex items-center gap-2 text-angel-pink-dark hover:bg-angel-pink-dark hover:text-white transition-all">
+                                <i class="fab fa-instagram text-xl"></i>
+                                <span class="text-sm font-medium pr-1">Angelbeautysalon-Kalyan</span>
+                            </a>
+                            
+                            <a href="https://www.instagram.com/vs_family_salon_2025?igsh=MTlhZXNpeXpwcTE4" target="_blank" aria-label="Instagram VS Family Branch" class="px-4 py-2 h-12 rounded-full bg-angel-pink-light flex items-center gap-2 text-angel-pink-dark hover:bg-angel-pink-dark hover:text-white transition-all">
+                                <i class="fab fa-instagram text-xl"></i>
+                                <span class="text-sm font-medium pr-1">VS Salon-kalyan</span>
+                            </a>
+                            
+                            <a href="#" aria-label="YouTube" class="w-12 h-12 rounded-full bg-angel-pink-light flex items-center justify-center text-angel-pink-dark hover:bg-angel-pink-dark hover:text-white transition-all">
+                                <i class="fab fa-youtube text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="section-padding bg-angel-pink-light hidden">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="font-playfair text-3xl md:text-4xl font-bold text-angel-dark mt-2">
+                    Your Dashboard
+                </h2>
+                <p class="text-angel-gray mt-4 max-w-2xl mx-auto" id="dashboardGreeting"></p>
+            </div>
+            
+            <div id="ownerDashboard" class="hidden">
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-4">All Bookings</h3>
+                        <p class="text-3xl font-bold text-angel-pink-dark" id="totalBookings">0</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-4">Pending</h3>
+                        <p class="text-3xl font-bold text-angel-pink-dark" id="pendingCount">0</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-6 shadow-lg">
+                        <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-4">Confirmed</h3>
+                        <p class="text-3xl font-bold text-angel-pink-dark" id="confirmedCount">0</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-6 shadow-lg overflow-x-auto">
+                    <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-4">All Bookings (by Location)</h3>
+                    <table class="w-full text-left" id="ownerBookingsTable">
+                        <thead>
+                            <tr class="border-b border-angel-pink-light">
+                                <th class="py-3 px-2">Customer</th>
+                                <th class="py-3 px-2">Email</th>
+                                <th class="py-3 px-2">Phone</th>
+                                <th class="py-3 px-2">Service</th>
+                                <th class="py-3 px-2">Date</th>
+                                <th class="py-3 px-2">Time</th>
+                                <th class="py-3 px-2">Location</th>
+                                <th class="py-3 px-2">Status</th>
+                                <th class="py-3 px-2">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ownerBookingsBody"></tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div id="customerDashboard" class="hidden">
+                <div class="bg-white rounded-2xl p-6 shadow-lg overflow-x-auto">
+                    <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-4">My Bookings</h3>
+                    <table class="w-full text-left" id="customerBookingsTable">
+                        <thead>
+                            <tr class="border-b border-angel-pink-light">
+                                <th class="py-3 px-2">Service</th>
+                                <th class="py-3 px-2">Date</th>
+                                <th class="py-3 px-2">Time</th>
+                                <th class="py-3 px-2">Location</th>
+                                <th class="py-3 px-2">Status</th>
+                                <th class="py-3 px-2">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="customerBookingsBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-angel-dark text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 rounded-full gold-gradient flex items-center justify-center">
+                            <span class="text-white font-playfair text-xl font-bold">A</span>
+                        </div>
+                        <div>
+                            <h3 class="font-playfair text-xl font-semibold">Angel Beauty</h3>
+                            <p class="text-xs text-gray-400">Premium Salon</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Your trusted destination for premium beauty services. Experience the angel difference today.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Services</a></li>
+                        <li><a href="#gallery" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Gallery</a></li>
+                        <li><a href="#locations" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Locations</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Hair Styling</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Bridal Makeup</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Facial Treatments</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Party Makeup</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-angel-pink-light transition-colors text-sm">Full Bridal Package</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-phone text-angel-pink-light"></i>
+                            [Phone Number]
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-envelope text-angel-pink-light"></i>
+                            info@angelbeautysalon.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-400 text-sm">
+                    © 2024 Angel Beauty Salon. All rights reserved.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#" class="text-gray-400 hover:text-angel-pink-light text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-angel-pink-light text-sm">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/[PhoneNumber]" aria-label="Chat on WhatsApp" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div class="scroll-top" aria-label="Scroll to top" id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- VS Salon Modal -->
+    <div class="modal-overlay" id="locationModal-vs">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>VS Salon-kalyan</h3>
+                <button onclick="closeLocationModal('vs')" aria-label="Close location modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <h4 class="font-playfair text-xl font-semibold mb-3">Our Services</h4>
+                    <div class="space-y-2">
+                        <div class="service-item">
+                            <span>Haircut & Styling</span>
+                            <div><span class="font-semibold mr-3">₹450 - ₹1300</span><button class="service-book-btn" onclick="bookFromLocation('vs', 'Haircut & Styling', '₹450 - ₹1300')">Book Now</button></div>
+                        </div>
+                        <div class="service-item">
+                            <span>Hair Coloring</span>
+                            <div><span class="font-semibold mr-3">₹1900 - ₹4800</span><button class="service-book-btn" onclick="bookFromLocation('vs', 'Hair Coloring', '₹1900 - ₹4800')">Book Now</button></div>
+                        </div>
+                        <div class="service-item">
+                            <span>Bridal Makeup</span>
+                            <div><span class="font-semibold mr-3">₹13000 - ₹28000</span><button class="service-book-btn" onclick="bookFromLocation('vs', 'Bridal Makeup', '₹13000 - ₹28000')">Book Now</button></div>
+                        </div>
+                        <div class="service-item">
+                            <span>Facial</span>
+                            <div><span class="font-semibold mr-3">₹950 - ₹2900</span><button class="service-book-btn" onclick="bookFromLocation('vs', 'Facial', '₹950 - ₹2900')">Book Now</button></div>
+                        </div>
+                        <div class="service-item">
+                            <span>Manicure & Pedicure</span>
+                            <div><span class="font-semibold mr-3">₹750 - ₹1900</span><button class="service-book-btn" onclick="bookFromLocation('vs', 'Manicure & Pedicure', '₹750 - ₹1900')">Book Now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-playfair text-xl font-semibold mb-3">Gallery</h4>
+                    <div class="gallery-grid">
+                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=400" alt="Hair">
+                        <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400" alt="Color">
+                        <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400" alt="Makeup">
+                        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400" alt="Salon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Modal -->
+    <div class="modal-overlay" id="servicesModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>All Services</h3>
+                <button onclick="closeServicesModal()" aria-label="Close services modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="services-modal-grid"></div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div class="modal-overlay" id="galleryModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Full Gallery</h3>
+                <button onclick="closeGalleryModal()" aria-label="Close gallery modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="gallery-modal-grid"></div>
+        </div>
+    </div>
+
+    <!-- Reviews Modal (with tabs) -->
+    <div class="modal-overlay" id="reviewsModal">
+        <div class="modal-content">
+            <div class="modal-header pb-2 mb-4 border-b-0">
+                <h3>All Customer Reviews</h3>
+                <button onclick="closeReviewsModal()" aria-label="Close reviews modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="flex border-b border-gray-200 mb-6">
+                <button id="tab-kalyan" onclick="switchReviewTab('kalyan')" class="flex-1 py-2 text-center font-semibold border-b-2 transition-all text-angel-pink-dark border-angel-pink-dark">Angelbeautysalon-Kalyan</button>
+                <button id="tab-vs" onclick="switchReviewTab('vs')" class="flex-1 py-2 text-center font-medium border-b-2 transition-all text-angel-gray border-transparent hover:text-angel-dark">VS Salon-kalyan</button>
+            </div>
+
+            <div class="space-y-4" id="reviews-modal-container"></div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal-content p-0">
+            <div class="bg-gradient-to-r from-angel-pink-dark to-angel-pink p-6 rounded-t-2xl">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-playfair text-2xl font-semibold text-white">Login</h3>
+                    <button onclick="closeLoginModal()" class="text-white hover:text-gray-200" aria-label="Close login modal">
+                        <i class="fas fa-times text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-6">
+                <form onsubmit="handleLogin(event)">
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Email</label>
+                        <input type="email" id="loginEmail" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Password</label>
+                        <input type="password" id="loginPassword" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none">
+                    </div>
+                    <button type="submit" class="btn-primary w-full">Login</button>
+                    <p class="text-center text-sm text-angel-gray mt-4">
+                        Don't have an account? 
+                        <button type="button" onclick="switchToSignup()" class="text-angel-pink-dark hover:underline">Sign up</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal-overlay" id="signupModal">
+        <div class="modal-content p-0">
+            <div class="bg-gradient-to-r from-angel-pink-dark to-angel-pink p-6 rounded-t-2xl">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-playfair text-2xl font-semibold text-white">Sign Up</h3>
+                    <button onclick="closeSignupModal()" class="text-white hover:text-gray-200" aria-label="Close signup modal">
+                        <i class="fas fa-times text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-6">
+                <form onsubmit="handleSignup(event)">
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Full Name</label>
+                        <input type="text" id="signupName" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Email</label>
+                        <input type="email" id="signupEmail" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Password</label>
+                        <input type="password" id="signupPassword" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Confirm Password</label>
+                        <input type="password" id="signupConfirmPassword" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none">
+                    </div>
+                    <button type="submit" class="btn-primary w-full">Sign Up</button>
+                    <p class="text-center text-sm text-angel-gray mt-4">
+                        Already have an account? 
+                        <button type="button" onclick="switchToLogin()" class="text-angel-pink-dark hover:underline">Login</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Modal -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-content p-0">
+            <div class="bg-gradient-to-r from-angel-pink-dark to-angel-pink p-6 rounded-t-2xl">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h3 class="font-playfair text-2xl font-semibold text-white">Book Appointment</h3>
+                        <p class="text-white/80 text-sm">Select your preferences below</p>
+                    </div>
+                    <button onclick="closeBookingModal()" class="text-white hover:text-gray-200" aria-label="Close booking modal">
+                        <i class="fas fa-times text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="p-6">
+                <div class="flex justify-between mb-8 step-indicator" id="bookingSteps">
+                    <div class="flex flex-col items-center">
+                        <div class="step-dot active" id="step1Dot">1</div>
+                        <span class="text-xs mt-2 text-angel-gray">Location</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="step-dot" id="step2Dot">2</div>
+                        <span class="text-xs mt-2 text-angel-gray">Service</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="step-dot" id="step3Dot">3</div>
+                        <span class="text-xs mt-2 text-angel-gray">Time</span>
+                    </div>
+                </div>
+                
+                <div id="step1" class="booking-step">
+                    <h4 class="font-semibold text-angel-dark mb-4">Select Location</h4>
+                    <div class="space-y-3">
+                        <button onclick="selectLocation('Angelbeautysalon-Kalyan')" class="location-option w-full p-4 border border-gray-200 rounded-xl hover:border-angel-pink-dark transition-all flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-map-marker-alt text-angel-pink-dark"></i>
+                                <div class="text-left">
+                                    <p class="font-medium text-angel-dark">Angelbeautysalon-Kalyan <span class="bg-angel-pink-light text-angel-pink-dark text-[10px] ml-1 px-2 py-0.5 rounded-full">Only Ladies</span></p>
+                                    <p class="text-xs text-angel-gray">Khadakpada, Kalyan</p>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-right text-angel-gray"></i>
+                        </button>
+                        <button onclick="selectLocation('VS Salon-kalyan')" class="location-option w-full p-4 border border-gray-200 rounded-xl hover:border-angel-pink-dark transition-all flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-map-marker-alt text-angel-pink-dark"></i>
+                                <div class="text-left">
+                                    <p class="font-medium text-angel-dark">VS Salon-kalyan <span class="bg-gray-100 text-angel-dark text-[10px] ml-1 px-2 py-0.5 rounded-full">Unisex</span></p>
+                                    <p class="text-xs text-angel-gray">Raunak City, Kalyan</p>
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-right text-angel-gray"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="step2" class="booking-step hidden">
+                    <h4 class="font-semibold text-angel-dark mb-4">Select Service</h4>
+                    <div class="space-y-3" id="serviceOptions"></div>
+                    <button onclick="goToStep(1)" class="mt-4 text-angel-pink-dark text-sm hover:underline">
+                        <i class="fas fa-arrow-left mr-1"></i> Back
+                    </button>
+                </div>
+                
+                <div id="step3" class="booking-step hidden">
+                    <h4 class="font-semibold text-angel-dark mb-4">Select Date & Time</h4>
+                    
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Date</label>
+                        <input type="text" id="bookingDate" 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none"
+                               placeholder="Select date">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Available Time Slots</label>
+                        <div class="grid grid-cols-3 gap-2" id="timeSlots"></div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium text-angel-dark mb-2">Your Details</label>
+                        <div class="grid gap-3">
+                            <input type="text" id="customerName" required
+                                   class="px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none"
+                                   placeholder="Your Name">
+                            <input type="email" id="customerEmail" required
+                                   class="px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none"
+                                   placeholder="Your Email">
+                            <input type="tel" id="customerPhone" required
+                                   class="px-4 py-3 rounded-lg border border-gray-300 focus:border-angel-pink-dark focus:ring-2 focus:ring-angel-pink-light outline-none"
+                                   placeholder="Phone Number">
+                        </div>
+                        <p class="text-xs text-angel-gray mt-2">You must be logged in to book. If not logged in, please login first.</p>
+                    </div>
+                    
+                    <button onclick="goToStep(2)" class="mb-2 text-angel-pink-dark text-sm hover:underline">
+                        <i class="fas fa-arrow-left mr-1"></i> Back
+                    </button>
+                    
+                    <button onclick="submitBooking()" class="btn-primary w-full">
+                        <i class="fas fa-check-circle mr-2"></i>Confirm Booking
+                    </button>
+                    
+                    <p class="text-xs text-angel-gray text-center mt-3">
+                        <i class="fas fa-info-circle mr-1"></i> Booking will be saved in your account.
+                    </p>
+                </div>
+                
+                <div id="bookingSummary" class="hidden text-center py-8">
+                    <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-check text-green-500 text-4xl"></i>
+                    </div>
+                    <h3 class="font-playfair text-2xl font-semibold text-angel-dark mb-2">Booking Submitted!</h3>
+                    <p class="text-angel-gray mb-6">Your appointment has been booked. Check your dashboard for status.</p>
+                    
+                    <div class="bg-angel-pink-light rounded-xl p-4 text-left mb-6">
+                        <h4 class="font-semibold text-angel-dark mb-2">Booking Details:</h4>
+                        <p class="text-sm text-angel-gray"><span class="font-medium">Location:</span> <span id="summaryLocation">-</span></p>
+                        <p class="text-sm text-angel-gray"><span class="font-medium">Service:</span> <span id="summaryService">-</span></p>
+                        <p class="text-sm text-angel-gray"><span class="font-medium">Date & Time:</span> <span id="summaryDateTime">-</span></p>
+                    </div>
+                    
+                    <button onclick="closeBookingModal()" class="btn-primary">
+                        Done
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    
+    <script>
+        AOS.init({ duration:800, offset:100, once:true });
+
+        // ===== CAROUSEL FUNCTIONALITY =====
+        (function() {
+            const slides = document.querySelectorAll('.carousel-slide');
+            const prevBtn = document.getElementById('prevOffer');
+            const nextBtn = document.getElementById('nextOffer');
+            const dotsContainer = document.getElementById('carouselDots');
+            let currentIndex = 0;
+
+            // Hide all slides except the first one
+            function showSlide(index) {
+                if (index < 0) index = slides.length - 1;
+                if (index >= slides.length) index = 0;
+                slides.forEach((slide, i) => {
+                    slide.style.display = i === index ? 'flex' : 'none';
+                });
+                updateDots(index);
+                currentIndex = index;
+            }
+
+            // Create dots
+            slides.forEach((_, i) => {
+                const dot = document.createElement('span');
+                dot.className = 'carousel-dot';
+                if (i === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => showSlide(i));
+                dotsContainer.appendChild(dot);
+            });
+
+            function updateDots(index) {
+                const dots = document.querySelectorAll('.carousel-dot');
+                dots.forEach((dot, i) => {
+                    dot.classList.remove('active');
+                    if (i === index) dot.classList.add('active');
+                });
+            }
+
+            // Event listeners for arrows
+            prevBtn.addEventListener('click', () => showSlide(currentIndex - 1));
+            nextBtn.addEventListener('click', () => showSlide(currentIndex + 1));
+
+            // Auto slide every 5 seconds
+            setInterval(() => showSlide(currentIndex + 1), 5000);
+
+            // Initialize
+            showSlide(0);
+        })();
+
+        function toggleMobileMenu() { document.getElementById('mobileMenu').classList.toggle('active'); }
+
+        window.addEventListener('scroll', ()=>{
+            const st = document.getElementById('scrollTop');
+            if (window.pageYOffset>300) st.classList.add('visible'); else st.classList.remove('visible');
+        });
+        
+        function scrollToTop() { window.scrollTo({ top:0, behavior:'smooth' }); }
+
+        window.addEventListener('scroll', ()=>{
+            const navbar = document.getElementById('navbar');
+            if (window.pageYOffset>50) {
+                navbar.classList.add('shadow-md','py-2'); navbar.classList.remove('py-4');
+            } else {
+                navbar.classList.remove('shadow-md','py-2'); navbar.classList.add('py-4');
+            }
+        });
+
+        function openLocationModal(loc) {
+            document.getElementById(`locationModal-${loc}`).classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLocationModal(loc) {
+            document.getElementById(`locationModal-${loc}`).classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function bookFromLocation(location, service, price) {
+            closeLocationModal('vs');
+            setTimeout(() => {
+                openBookingModalWithPreset('VS Salon-kalyan', service, price);
+            }, 300);
+        }
+
+        function openBookingModalWithPreset(location, service, price) {
+            const user = JSON.parse(localStorage.getItem('angelUser'));
+            if (!user) { alert('Please login first.'); openLoginModal(); return; }
+            openBookingModal();
+            setTimeout(() => {
+                selectLocation(location);
+                setTimeout(() => {
+                    const serviceOptions = document.querySelectorAll('.service-option');
+                    for (let btn of serviceOptions) {
+                        if (btn.textContent.includes(service)) {
+                            btn.click();
+                            break;
+                        }
+                    }
+                }, 300);
+            }, 300);
+        }
+
+        const servicesData = [
+            { name: 'Hair Styling', price: '₹500 - ₹2000', duration: '30-90 min', category: 'hair' },
+            { name: 'Hair Coloring', price: '₹1500 - ₹8000', duration: '60-180 min', category: 'hair' },
+            { name: 'Bridal Makeup', price: '₹15000 - ₹50000', duration: '2-4 hours', category: 'bridal' },
+            { name: 'Party Makeup', price: '₹2000 - ₹8000', duration: '45-90 min', category: 'makeup' },
+            { name: 'Facial Treatment', price: '₹1000 - ₹5000', duration: '45-60 min', category: 'skin' },
+            { name: 'Full Bridal Package', price: '₹25000 - ₹75000', duration: 'Full Day', category: 'bridal' },
+            { name: 'Hair Spa', price: '₹800 - ₹3000', duration: '30-60 min', category: 'hair' },
+            { name: 'Manicure & Pedicure', price: '₹500 - ₹2000', duration: '30-60 min', category: 'skin' },
+            { name: 'Mehandi', price: '₹500 - ₹5000', duration: '30-180 min', category: 'bridal' }
+        ];
+
+        const servicesGrid = document.getElementById('services-grid');
+        servicesData.slice(0,3).forEach(service => {
+            const card = document.createElement('div');
+            card.className = 'service-card bg-white rounded-2xl p-6 shadow-lg card-hover';
+            card.setAttribute('data-category', service.category);
+            card.innerHTML = `
+                <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center mb-4">
+                    <i class="fas fa-cut text-2xl text-amber-700"></i>
+                </div>
+                <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-2">${service.name}</h3>
+                <p class="text-angel-gray text-sm mb-4">${service.duration}</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-angel-pink-dark font-semibold">${service.price}</span>
+                </div>
+                <button onclick="openServiceBooking('${service.name}', '${service.price}')" class="w-full mt-4 py-2 border border-angel-pink-dark text-angel-pink-dark rounded-full hover:bg-angel-pink-dark hover:text-white transition-all text-sm">
+                    Book Now
+                </button>
+            `;
+            servicesGrid.appendChild(card);
+        });
+
+        const galleryData = [
+            { src: './2211.jpg', category: 'bridal', alt: 'Bridal & Party Makeup Transformation' },
+            { src: 'https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'bridal', alt: 'Bridal Makeup' },
+            { src: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'hair', alt: 'Hair Styling' },
+            { src: 'https://images.unsplash.com/photo-1487412947147-5cebf96a990c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'makeup', alt: 'Party Makeup' },
+            { src: 'https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'salon', alt: 'Salon Interior' },
+            { src: 'https://images.unsplash.com/photo-1596906663291-737eb5c76071?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'bridal', alt: 'Bridal Hairstyle' },
+            { src: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'hair', alt: 'Hair Color' },
+            { src: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'makeup', alt: 'Natural Makeup' },
+            { src: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80', category: 'salon', alt: 'Salon Ambiance' }
+        ];
+
+        const galleryGrid = document.getElementById('gallery-grid');
+        galleryData.slice(0,4).forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'gallery-item rounded-2xl overflow-hidden shadow-lg';
+            div.setAttribute('data-category', item.category);
+            div.innerHTML = `<img src="${item.src}" alt="${item.alt}" class="w-full h-64 object-cover">`;
+            galleryGrid.appendChild(div);
+        });
+
+        // ==========================================
+        // REVIEWS DATA SECTION
+        // ==========================================
+        
+        const featuredHomepageReviews = [
+            { name:"Pushpa Singh", reviewCount:"1 review", rating:5, date:"a week ago", text:"I am came angel beauty salon for hair treatment and global highlights. the results are amazing-the team is wonderful and the staff is very cooperative" },
+            { name:"Sudipa Mazumdar", reviewCount:"1 review", rating:4, date:"a year ago", text:"A very nice services 😍😍\n\nServices: Shampoo & conditioning, Bridal services and Eyebrow threading" },
+            { name:"Sayali Patil", reviewCount:"4 reviews", rating:5, date:"a year ago", text:"I was very good experience 💗💗💗  100% best service. Very neat and clean parlour. Highly recommend 💗💗💗" }
+        ];
+
+        const kalyanReviewsData = [
+            { name:"Pushpa Singh", reviewCount:"1 review", rating:5, date:"a week ago", text:"I am came angel beauty salon for hair treatment and global highlights. the results are amazing-the team is wonderful and the staff is very cooperative" },
+            { name:"Sudipa Mazumdar", reviewCount:"1 review", rating:4, date:"a year ago", text:"A very nice services 😍😍\n\nServices: Shampoo & conditioning, Bridal services and Eyebrow threading" },
+            { name:"Sayali Patil", reviewCount:"4 reviews", rating:5, date:"a year ago", text:"I was very good experience 💗💗💗  100% best service. Very neat and clean parlour. Highly recommend 💗💗💗" },
+            { name:"shital chaudhari", reviewCount:"4 reviews", rating:5, date:"Edited a year ago", text:"Amazing service and great quality and professional products......I am happy with my highlight hair and protein treatment... nice place" },
+            { name:"deepika devhare", reviewCount:"2 reviews", rating:5, date:"10 months ago", text:"Angel salon is very good salon and there staff is so friendly and supportive.\n\nI am so happy.\n\n❤️❤️❤️❤️❤️" },
+            { name:"Jyoti Katti", reviewCount:"1 review", rating:5, date:"2 months ago", text:"Nice haircut ,thank you to the team" },
+            { name:"Komal Bhagat", reviewCount:"2 reviews", rating:5, date:"3 months ago", text:"Nice haircut, I recommend this Angle Beauty Salon\n\nServices: Shampoo & conditioning and Hair threading" },
+            { name:"Priya Chaudhari", reviewCount:"2 reviews", rating:5, date:"9 months ago", text:"It's a nice and good service\nI am doing in haire botox\nThank you\n\n❤️❤️❤️1" },
+            { name:"Lalita Chandekar", reviewCount:"1 review", rating:5, date:"3 months ago", text:"Nice service, professional staff, I love all service, massage, great experience, I recommend this salon\n\n❤️ ❤️ 1" },
+            { name:"Neha S Yadav", reviewCount:"1 review", rating:5, date:"5 months ago", text:"I have a nice experience of this salon. I have done drangruff hair treatment like it most thanku fir angel salon 😍" },
+            { name:"Pratibha Naik", reviewCount:"Local Guide · 10 reviews", rating:4, date:"a year ago", text:"Excellent Beauty services provided by the proprietor and her staff Priyanka...\nI would like to recommend them for makeup, facial, haircut and hairstyle along with kids haircut services." },
+            { name:"Sunita Kendole", reviewCount:"4 reviews", rating:5, date:"3 months ago", text:"It is a very nice salon. The staff here is also good. Very good service is provided. Must visit once.\n\nServices: Hair threading, Haircut, Eyebrow threading, Pedicure, Waxing, Spa services and Facials" },
+            { name:"Reshama Khatun", reviewCount:"2 reviews", rating:4, date:"3 months ago", text:"Manine apna hair Botox treatment karvaya, bahot accha kiya treatment mam ne ,staff bhi professional hai ,nice salon services" },
+            { name:"kalpesh Tilawat", reviewCount:"3 reviews", rating:5, date:"3 weeks ago", text:"Very best service experience. My Global haircolor or highlights come out with best look." },
+            { name:"More Pragati", reviewCount:"5 reviews", rating:5, date:"10 months ago", text:"Its very great service from all staff. They are very impressive. Before my hairs are dull bt after treatment my hairs are very good. I am very confused before came here to india bt its very good service from all specially the team, Priyanka, Sayli, Arpita. They are putting efforts so much. I recommend all its very great sallon." },
+            { name:"Shehal Patil", reviewCount:"7 reviews", rating:5, date:"2 weeks ago", text:"I just had a Hair Botox treatment From Angel beauty salon, and the results are honestly fabulous! My hair went from dull and frizzy to incredibly soft, shiny, and manageable. The team was so meticulous throughout the process and explained exactly how to maintain the results at home. If you’re looking to revive your hair, go see them!" },
+            { name:"Manisha Bhopale", reviewCount:"2 reviews", rating:5, date:"a month ago", text:"Before doing Gobal hair coloring and highlights on my hairs, it was so dull. Now I feel silky shiny and colour full...thank you for the wonderful service and the changes..after doing this there is a change on my face glow too...\n\nHair type: It was oily and dull" },
+            { name:"Tejaswini Patil", reviewCount:"2 reviews", rating:4, date:"a month ago", text:"Super happy with my global hair colour! My hair feels so smooth, shiny, and healthy. The staff was professional and very caring. Highly recommend Angle Beauty Parlour!" },
+            { name:"Aditi Patil", reviewCount:"6 reviews", rating:5, date:"2 weeks ago", text:"I had a Botox treatment done at Angel Beauty salon and I’m really happy with the results. The service was professional and thorough, and the staff was absolutely wonderful attentive, skilled, and very supportive throughout the process. She made sure I was comfortable and explained everything clearly. The whole experience was smooth and pleasant. Highly recommend for anyone looking for quality beauty treatments!" }
+        ];
+
+        // VS Salon reviews are empty – you can add them here
+        const vsReviewsData = [];
+
+        function renderStars(r) {
+            let s='';
+            for(let i=1;i<=5;i++) s+= i<=r ? '<i class="fas fa-star text-angel-gold"></i>' : '<i class="far fa-star text-angel-gold"></i>';
+            return s;
+        }
+
+        // Render Homepage Reviews
+        const tgrid = document.getElementById('testimonials-grid');
+        featuredHomepageReviews.forEach(r=>{
+            const card = document.createElement('div');
+            card.className = 'testimonial-card rounded-2xl p-6 shadow-lg';
+            card.innerHTML = `
+                <div class="flex items-center gap-1 mb-2">${renderStars(r.rating)}</div>
+                <p class="text-angel-gray mb-4 italic text-sm">${r.text.replace(/\n/g,'<br>')}</p>
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full bg-angel-pink-light flex items-center justify-center text-angel-pink-dark font-bold text-xl">${r.name.charAt(0)}</div>
+                    <div><h4 class="font-semibold text-angel-dark">${r.name}</h4><p class="text-xs text-angel-gray">${r.reviewCount} • ${r.date}</p></div>
+                </div>
+            `;
+            tgrid.appendChild(card);
+        });
+
+        // Tab Switching Logic for Modal
+        function switchReviewTab(branch) {
+            const tabKalyan = document.getElementById('tab-kalyan');
+            const tabVS = document.getElementById('tab-vs');
+            
+            if (branch === 'kalyan') {
+                tabKalyan.className = 'flex-1 py-2 text-center font-semibold border-b-2 transition-all text-angel-pink-dark border-angel-pink-dark';
+                tabVS.className = 'flex-1 py-2 text-center font-medium border-b-2 transition-all text-angel-gray border-transparent hover:text-angel-dark';
+                renderReviewsInModal(kalyanReviewsData);
+            } else {
+                tabVS.className = 'flex-1 py-2 text-center font-semibold border-b-2 transition-all text-angel-pink-dark border-angel-pink-dark';
+                tabKalyan.className = 'flex-1 py-2 text-center font-medium border-b-2 transition-all text-angel-gray border-transparent hover:text-angel-dark';
+                renderReviewsInModal(vsReviewsData);
+            }
+        }
+
+        function renderReviewsInModal(data) {
+            const container = document.getElementById('reviews-modal-container');
+            container.innerHTML = '';
+            
+            if(data.length === 0) {
+                container.innerHTML = '<p class="text-center text-angel-gray py-8">No reviews to display yet.</p>';
+                return;
+            }
+            
+            data.forEach(r => {
+                const div = document.createElement('div');
+                div.className = 'review-item border-b border-angel-pink-light pb-4 mb-4';
+                div.innerHTML = `
+                    <p class="font-semibold">${r.name} <span class="text-xs font-normal text-angel-gray">${r.reviewCount} • ${r.date}</span></p>
+                    <div class="flex items-center gap-1 my-1">${renderStars(r.rating)}</div>
+                    <p class="text-sm whitespace-pre-line">${r.text}</p>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // ==========================================
+
+        function openServicesModal() {
+            const modal = document.getElementById('servicesModal');
+            const grid = document.getElementById('services-modal-grid');
+            grid.innerHTML = '';
+            servicesData.forEach(service => {
+                const card = document.createElement('div');
+                card.className = 'service-card bg-white rounded-2xl p-6 shadow-lg card-hover';
+                card.setAttribute('data-category', service.category);
+                card.innerHTML = `
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center mb-4">
+                        <i class="fas fa-cut text-2xl text-amber-700"></i>
+                    </div>
+                    <h3 class="font-playfair text-xl font-semibold text-angel-dark mb-2">${service.name}</h3>
+                    <p class="text-angel-gray text-sm mb-4">${service.duration}</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-angel-pink-dark font-semibold">${service.price}</span>
+                    </div>
+                    <button onclick="openServiceBooking('${service.name}', '${service.price}')" class="w-full mt-4 py-2 border border-angel-pink-dark text-angel-pink-dark rounded-full hover:bg-angel-pink-dark hover:text-white transition-all text-sm">
+                        Book Now
+                    </button>
+                `;
+                grid.appendChild(card);
+            });
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeServicesModal() {
+            document.getElementById('servicesModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function openGalleryModal() {
+            const modal = document.getElementById('galleryModal');
+            const grid = document.getElementById('gallery-modal-grid');
+            grid.innerHTML = '';
+            galleryData.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'gallery-item rounded-2xl overflow-hidden shadow-lg';
+                div.setAttribute('data-category', item.category);
+                div.innerHTML = `<img src="${item.src}" alt="${item.alt}" class="w-full h-48 object-cover">`;
+                grid.appendChild(div);
+            });
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeGalleryModal() {
+            document.getElementById('galleryModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function openReviewsModal() {
+            document.getElementById('reviewsModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+            // Open the modal with the Kalyan tab selected by default
+            switchReviewTab('kalyan');
+        }
+
+        function closeReviewsModal() {
+            document.getElementById('reviewsModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function filterServices(category) {
+            const cards = document.querySelectorAll('.service-card[data-category]');
+            const buttons = document.querySelectorAll('.service-filter');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-angel-dark', 'text-white');
+                btn.classList.add('bg-white', 'text-angel-gray');
+            });
+            event.target.classList.remove('bg-white', 'text-angel-gray');
+            event.target.classList.add('bg-angel-dark', 'text-white');
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const buttons = document.querySelectorAll('.gallery-filter');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-angel-dark', 'text-white');
+                btn.classList.add('bg-angel-pink-light', 'text-angel-gray');
+            });
+            event.target.classList.remove('bg-angel-pink-light', 'text-angel-gray');
+            event.target.classList.add('bg-angel-dark', 'text-white');
+            items.forEach(item => {
+                if (category === 'all' || item.dataset.category === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function preloadOwner() {
+            const users = JSON.parse(localStorage.getItem('angelUsers') || '[]');
+            const ownerEmail = 'owner@angelbeauty.com';
+            if (!users.find(u=>u.email===ownerEmail)) {
+                users.push({ name:'Salon Owner', email:ownerEmail, password:'owner123', role:'owner' });
+                localStorage.setItem('angelUsers', JSON.stringify(users));
+            }
+        }
+        preloadOwner();
+
+        function getBookings() { return JSON.parse(localStorage.getItem('angelBookings') || '[]'); }
+        function saveBookings(b) { localStorage.setItem('angelBookings', JSON.stringify(b)); }
+        function generateId() { return Date.now()+'-'+Math.random().toString(36).substr(2,9); }
+
+        function openLoginModal() { document.getElementById('loginModal').classList.add('active'); document.body.style.overflow='hidden'; }
+        function closeLoginModal() { document.getElementById('loginModal').classList.remove('active'); document.body.style.overflow='auto'; }
+        function openSignupModal() { document.getElementById('signupModal').classList.add('active'); document.body.style.overflow='hidden'; }
+        function closeSignupModal() { document.getElementById('signupModal').classList.remove('active'); document.body.style.overflow='auto'; }
+        function switchToSignup() { closeLoginModal(); openSignupModal(); }
+        function switchToLogin() { closeSignupModal(); openLoginModal(); }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+            const users = JSON.parse(localStorage.getItem('angelUsers')||'[]');
+            const user = users.find(u=>u.email===email && u.password===password);
+            if (user) {
+                localStorage.setItem('angelUser', JSON.stringify(user));
+                updateUIForLoggedInUser(user);
+                refreshDashboard(user);
+                closeLoginModal();
+                alert('Login successful!');
+            } else {
+                alert('Invalid credentials. Owner: owner@angelbeauty.com / owner123');
+            }
+        }
+
+        function handleSignup(e) {
+            e.preventDefault();
+            const name = document.getElementById('signupName').value;
+            const email = document.getElementById('signupEmail').value;
+            const password = document.getElementById('signupPassword').value;
+            const confirm = document.getElementById('signupConfirmPassword').value;
+            if (password!==confirm) { alert('Passwords do not match!'); return; }
+            let role = 'customer';
+            if (email.toLowerCase().includes('owner')) role='owner';
+            const users = JSON.parse(localStorage.getItem('angelUsers')||'[]');
+            if (users.find(u=>u.email===email)) { alert('User already exists.'); return; }
+            const newUser = { name, email, password, role };
+            users.push(newUser);
+            localStorage.setItem('angelUsers', JSON.stringify(users));
+            localStorage.setItem('angelUser', JSON.stringify(newUser));
+            updateUIForLoggedInUser(newUser);
+            refreshDashboard(newUser);
+            closeSignupModal();
+            alert('Sign up successful!');
+        }
+
+        function logout() {
+            localStorage.removeItem('angelUser');
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('desktopAuthButtons').classList.remove('hidden');
+            document.getElementById('desktopUserMenu').classList.add('hidden');
+            document.getElementById('mobileAuthButtons').classList.remove('hidden');
+            document.getElementById('mobileUserMenu').classList.add('hidden');
+            window.scrollTo({ top:0, behavior:'smooth' });
+            alert('Logged out.');
+        }
+
+        function updateUIForLoggedInUser(user) {
+            document.getElementById('desktopAuthButtons').classList.add('hidden');
+            document.getElementById('desktopUserMenu').classList.remove('hidden');
+            document.getElementById('mobileAuthButtons').classList.add('hidden');
+            document.getElementById('mobileUserMenu').classList.remove('hidden');
+            document.getElementById('dashboard').classList.remove('hidden');
+            document.getElementById('dashboardGreeting').innerText = `Welcome back, ${user.name}!`;
+        }
+
+        function refreshDashboard(user) {
+            const bookings = getBookings();
+            if (user.role === 'owner') {
+                document.getElementById('ownerDashboard').classList.remove('hidden');
+                document.getElementById('customerDashboard').classList.add('hidden');
+                document.getElementById('totalBookings').innerText = bookings.length;
+                document.getElementById('pendingCount').innerText = bookings.filter(b=>b.status==='pending').length;
+                document.getElementById('confirmedCount').innerText = bookings.filter(b=>b.status==='confirmed').length;
+                const tbody = document.getElementById('ownerBookingsBody');
+                tbody.innerHTML = '';
+                bookings.sort((a,b)=>new Date(b.date+' '+b.time)-new Date(a.date+' '+a.time)).forEach(b=>{
+                    const row = document.createElement('tr');
+                    row.className='border-b border-gray-100';
+                    row.innerHTML = `
+                        <td class="py-3 px-2">${b.customerName}</td>
+                        <td class="py-3 px-2">${b.customerEmail}</td>
+                        <td class="py-3 px-2">${b.customerPhone}</td>
+                        <td class="py-3 px-2">${b.service}</td>
+                        <td class="py-3 px-2">${b.date}</td>
+                        <td class="py-3 px-2">${b.time}</td>
+                        <td class="py-3 px-2">${b.location}</td>
+                        <td class="py-3 px-2"><span class="px-2 py-1 rounded-full text-xs ${b.status==='confirmed'?'bg-green-100 text-green-600':b.status==='cancelled'?'bg-red-100 text-red-600':'bg-yellow-100 text-yellow-600'}">${b.status}</span></td>
+                        <td class="py-3 px-2">
+                            ${b.status==='pending'?`<button onclick="updateBookingStatus('${b.id}','confirmed')" class="text-green-600 hover:underline mr-2">Confirm</button>`:''}
+                            ${b.status!=='cancelled'?`<button onclick="updateBookingStatus('${b.id}','cancelled')" class="text-red-600 hover:underline">Cancel</button>`:''}
+                            <button onclick="deleteBooking('${b.id}')" class="text-gray-600 hover:underline ml-2">Delete</button>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } else {
+                document.getElementById('ownerDashboard').classList.add('hidden');
+                document.getElementById('customerDashboard').classList.remove('hidden');
+                const myBookings = bookings.filter(b=>b.customerEmail===user.email);
+                const tbody = document.getElementById('customerBookingsBody');
+                tbody.innerHTML = '';
+                myBookings.sort((a,b)=>new Date(b.date+' '+b.time)-new Date(a.date+' '+a.time)).forEach(b=>{
+                    const row = document.createElement('tr');
+                    row.className='border-b border-gray-100';
+                    row.innerHTML = `
+                        <td class="py-3 px-2">${b.service}</td>
+                        <td class="py-3 px-2">${b.date}</td>
+                        <td class="py-3 px-2">${b.time}</td>
+                        <td class="py-3 px-2">${b.location}</td>
+                        <td class="py-3 px-2"><span class="px-2 py-1 rounded-full text-xs ${b.status==='confirmed'?'bg-green-100 text-green-600':b.status==='cancelled'?'bg-red-100 text-red-600':'bg-yellow-100 text-yellow-600'}">${b.status}</span></td>
+                        <td class="py-3 px-2">
+                            ${b.status==='pending'?`<button onclick="updateBookingStatus('${b.id}','cancelled')" class="text-red-600 hover:underline">Cancel</button>`:''}
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            }
+        }
+
+        function updateBookingStatus(id, status) {
+            let bookings = getBookings();
+            const idx = bookings.findIndex(b=>b.id===id);
+            if (idx!==-1) {
+                bookings[idx].status = status;
+                saveBookings(bookings);
+                refreshDashboard(JSON.parse(localStorage.getItem('angelUser')));
+            }
+        }
+
+        function deleteBooking(id) {
+            if (confirm('Delete this booking?')) {
+                let bookings = getBookings().filter(b=>b.id!==id);
+                saveBookings(bookings);
+                refreshDashboard(JSON.parse(localStorage.getItem('angelUser')));
+            }
+        }
+
+        let bookingData = { location:'', service:'', servicePrice:'', date:'', time:'', name:'', email:'', phone:'' };
+        const timeSlotsList = ['10:00 AM','11:00 AM','12:00 PM','02:00 PM','03:00 PM','04:00 PM','05:00 PM','06:00 PM'];
+
+        function renderTimeSlots(selectedDate) {
+            const container = document.getElementById('timeSlots');
+            container.innerHTML = '';
+            const now = new Date();
+            const today = now.toLocaleDateString('en-CA');
+            const selectedDateStr = selectedDate ? new Date(selectedDate).toLocaleDateString('en-CA') : today;
+            
+            timeSlotsList.forEach(time => {
+                const slot = document.createElement('button');
+                slot.className = 'time-slot';
+                slot.setAttribute('onclick', `selectTime(this, '${time}')`);
+                slot.innerText = time;
+                
+                if (selectedDateStr === today) {
+                    const [hour, minutePart] = time.split(':');
+                    let hour24 = parseInt(hour);
+                    const ampm = time.split(' ')[1];
+                    if (ampm === 'PM' && hour24 !== 12) hour24 += 12;
+                    if (ampm === 'AM' && hour24 === 12) hour24 = 0;
+                    
+                    const slotTime = new Date();
+                    slotTime.setHours(hour24, 0, 0, 0);
+                    if (slotTime < now) {
+                        slot.classList.add('unavailable');
+                        slot.disabled = true;
+                    }
+                }
+                container.appendChild(slot);
+            });
+        }
+
+        flatpickr("#bookingDate", {
+            minDate: "today",
+            dateFormat: "d F, Y",
+            disableMobile: "true",
+            onChange: function(selectedDates) { renderTimeSlots(selectedDates[0]); }
+        });
+
+        function openBookingModal() {
+            const user = JSON.parse(localStorage.getItem('angelUser'));
+            if (!user) { alert('Please login first.'); openLoginModal(); return; }
+            document.getElementById('bookingModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+            resetBooking();
+            document.getElementById('customerEmail').value = user.email || '';
+            renderTimeSlots(new Date());
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function resetBooking() {
+            bookingData = { location:'', service:'', servicePrice:'', date:'', time:'', name:'', email:'', phone:'' };
+            goToStep(1);
+            document.getElementById('bookingSummary').classList.add('hidden');
+            document.querySelectorAll('.booking-step').forEach(s=>s.classList.remove('hidden'));
+            document.querySelectorAll('.time-slot').forEach(s=>s.classList.remove('selected'));
+        }
+
+        function openServiceBooking(service, price) {
+            openBookingModal();
+            setTimeout(() => {
+                bookingData.service = service;
+                bookingData.servicePrice = price;
+                document.getElementById('serviceOptions').innerHTML = servicesData.map(s => `
+                    <button onclick="selectService('${s.name}', '${s.price}')" class="service-option w-full p-4 border border-gray-200 rounded-xl hover:border-angel-pink-dark transition-all flex items-center justify-between ${s.name===service ? 'border-angel-pink-dark bg-angel-pink-light' : ''}">
+                        <div class="text-left"><p class="font-medium">${s.name}</p><p class="text-xs">${s.duration}</p></div>
+                        <span class="text-angel-pink-dark font-medium">${s.price}</span>
+                    </button>
+                `).join('');
+            }, 100);
+        }
+
+        function openBookingForLocation(loc) {
+            openBookingModal();
+            setTimeout(() => {
+                bookingData.location = loc;
+                selectLocation(loc);
+            }, 100);
+        }
+
+        function selectLocation(loc) {
+            bookingData.location = loc;
+            document.querySelectorAll('.location-option').forEach(btn => {
+                if (btn.textContent.includes(loc)) btn.classList.add('border-angel-pink-dark','bg-angel-pink-light');
+                else btn.classList.remove('border-angel-pink-dark','bg-angel-pink-light');
+            });
+            goToStep(2);
+            document.getElementById('serviceOptions').innerHTML = servicesData.map(s => `
+                <button onclick="selectService('${s.name}', '${s.price}')" class="service-option w-full p-4 border border-gray-200 rounded-xl hover:border-angel-pink-dark transition-all flex items-center justify-between">
+                    <div class="text-left"><p class="font-medium">${s.name}</p><p class="text-xs">${s.duration}</p></div>
+                    <span class="text-angel-pink-dark font-medium">${s.price}</span>
+                </button>
+            `).join('');
+        }
+
+        function selectService(service, price) {
+            bookingData.service = service;
+            bookingData.servicePrice = price;
+            document.querySelectorAll('.service-option').forEach(btn => {
+                btn.classList.remove('border-angel-pink-dark','bg-angel-pink-light');
+                if (btn.textContent.includes(service)) btn.classList.add('border-angel-pink-dark','bg-angel-pink-light');
+            });
+            setTimeout(()=>goToStep(3), 300);
+        }
+
+        function selectTime(el, time) {
+            if (el.classList.contains('unavailable')) return;
+            document.querySelectorAll('.time-slot').forEach(s=>s.classList.remove('selected'));
+            el.classList.add('selected');
+            bookingData.time = time;
+        }
+
+        function goToStep(step) {
+            for (let i=1; i<=3; i++) {
+                const dot = document.getElementById('step'+i+'Dot');
+                if (i < step) { dot.classList.add('completed'); dot.classList.remove('active'); dot.innerHTML = '<i class="fas fa-check"></i>'; }
+                else if (i === step) { dot.classList.add('active'); dot.classList.remove('completed'); dot.innerHTML = i; }
+                else { dot.classList.remove('active','completed'); dot.innerHTML = i; }
+            }
+            document.querySelectorAll('.booking-step').forEach((s,idx)=>{
+                if (idx+1 === step) s.classList.remove('hidden');
+                else s.classList.add('hidden');
+            });
+        }
+
+        function submitBooking() {
+            bookingData.date = document.getElementById('bookingDate').value;
+            bookingData.name = document.getElementById('customerName').value;
+            bookingData.email = document.getElementById('customerEmail').value;
+            bookingData.phone = document.getElementById('customerPhone').value;
+            
+            if (!bookingData.location || !bookingData.service || !bookingData.date || !bookingData.time || !bookingData.name || !bookingData.email || !bookingData.phone) {
+                alert('Please fill all fields'); return;
+            }
+            
+            const newBooking = {
+                id: generateId(),
+                customerName: bookingData.name,
+                customerEmail: bookingData.email,
+                customerPhone: bookingData.phone,
+                location: bookingData.location,
+                service: bookingData.service,
+                price: bookingData.servicePrice,
+                date: bookingData.date,
+                time: bookingData.time,
+                status: 'pending',
+                createdAt: new Date().toISOString()
+            };
+            
+            const bookings = getBookings();
+            bookings.push(newBooking);
+            saveBookings(bookings);
+            
+            const formData = new FormData();
+            formData.append('access_key', '39d40836-1f76-4bb4-bce3-792568d30024');
+            formData.append('subject', 'New Booking from Angel Beauty');
+            formData.append('name', bookingData.name);
+            formData.append('email', bookingData.email);
+            formData.append('phone', bookingData.phone);
+            formData.append('location', bookingData.location);
+            formData.append('service', bookingData.service);
+            formData.append('date', bookingData.date);
+            formData.append('time', bookingData.time);
+            formData.append('price', bookingData.servicePrice);
+            
+            fetch('https://api.web3forms.com/submit', { method:'POST', body:formData }).catch(err => console.error("Form submission error", err));
+            
+            document.querySelectorAll('.booking-step').forEach(s=>s.classList.add('hidden'));
+            document.getElementById('summaryLocation').innerText = bookingData.location;
+            document.getElementById('summaryService').innerText = bookingData.service;
+            document.getElementById('summaryDateTime').innerText = bookingData.date + ' at ' + bookingData.time;
+            document.getElementById('bookingSummary').classList.remove('hidden');
+            
+            const user = JSON.parse(localStorage.getItem('angelUser'));
+            if (user) refreshDashboard(user);
+        }
+
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('contactName').value;
+            const phone = document.getElementById('contactPhone').value;
+            const email = document.getElementById('contactEmail').value;
+            const service = document.getElementById('contactService').value;
+            const message = document.getElementById('contactMessage').value;
+            
+            if (!name || !phone || !email || !message) { alert('Please fill all fields'); return; }
+            
+            const formData = new FormData();
+            formData.append('access_key', '39d40836-1f76-4bb4-bce3-792568d30024');
+            formData.append('subject', 'Contact from Angel Beauty');
+            formData.append('name', name); formData.append('phone', phone); formData.append('email', email);
+            formData.append('service', service); formData.append('message', message);
+            
+            fetch('https://api.web3forms.com/submit', { method:'POST', body:formData })
+                .then(res=>res.json())
+                .then(data=>{ if (data.success) { alert('Message sent!'); e.target.reset(); } else alert('Failed to send message.'); })
+                .catch(()=>alert('Error processing request.'));
+        }
+
+        document.getElementById('loginModal').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeLoginModal(); });
+        document.getElementById('signupModal').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeSignupModal(); });
+        document.getElementById('locationModal-vs').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeLocationModal('vs'); });
+        document.getElementById('servicesModal').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeServicesModal(); });
+        document.getElementById('galleryModal').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeGalleryModal(); });
+        document.getElementById('reviewsModal').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeReviewsModal(); });
+        document.getElementById('bookingModal').addEventListener('click', e=>{ if (e.target===e.currentTarget) closeBookingModal(); });
+
+        window.addEventListener('load', ()=>{
+            const user = localStorage.getItem('angelUser');
+            if (user) {
+                const ud = JSON.parse(user);
+                updateUIForLoggedInUser(ud);
+                refreshDashboard(ud);
+            }
+        });
+    </script>
+</body>
+</html>
